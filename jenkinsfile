@@ -16,7 +16,7 @@ pipeline {
             steps {
                 sh'''
                 /usr/local/bin/sam build
-                /usr/local/bin/sam deploy --stack-name todo-list-aws-production --region us-east-1  --config-env production --debug 
+                /usr/local/bin/sam deploy --stack-name "todo-list-aws-production" --region "us-east-1"  --config-env "production" --debug 
                 scripts/extract_urls.sh
                 '''
             }
