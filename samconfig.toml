@@ -1,4 +1,4 @@
-version = 0.1
+version = 1.99.0
 [production]
 [production.deploy]
 [production.deploy.parameters]
